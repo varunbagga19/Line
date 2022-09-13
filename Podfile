@@ -6,6 +6,14 @@ target 'ChatApp' do
   use_frameworks!
 
   # Pods for ChatApp
+pod 'FBSDKLoginKit'
+pod 'GoogleSignIn'
+pod 'JGProgressHUD'
+pod 'RealmSwift'
+pod 'SDWebImage'
+pod 'MessageKit' 
+
+
 
   target 'ChatAppTests' do
     inherit! :search_paths
